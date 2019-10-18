@@ -20,3 +20,64 @@
 .App-link {
   color: #09d3ac;
 }
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text {
+  text-transform: capitalize !important;
+}
+
+button.MuiButtonBase-root.MuiButton-root.default.MuiButton-text {
+  text-transform: capitalize !important;
+}
+
+button.MuiButtonBase-root.MuiButton-root.primary.MuiButton-text {
+  color: white !important;
+  background: green !important;
+  font-weight: 700 !important;
+  text-transform: capitalize !important;
+}
+
+button.MuiButtonBase-root.MuiButton-root.danger.MuiButton-text {
+  background: red !important;
+  color: white !important;
+  font-weight: 700 !important;
+  text-transform: capitalize !important;
+}
+
+button.MuiButtonBase-root.MuiButton-root.CompletedClass.MuiButton-text {
+  background: chocolate;
+  color: white;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+button.MuiButtonBase-root.MuiButton-root.startClass.MuiButton-text {
+  background: wheat;
+  font-weight: 700;
+}
+
+td.MuiTableCell-root.MuiTableCell-alignRight.MuiTableCell-body {
+  flex-direction: row-reverse !important;
+  width: 40px !important;
+  text-align: initial !important;
+  max-width: 50px !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  color: blue !important;
+  font-weight: 600 !important;
+}
+
+th.MuiTableCell-root.MuiTableCell-alignRight.MuiTableCell-head {
+  text-align: initial !important;
+  flex-direction: row-reverse !important;
+  width: 30px !important;
+  max-width: 30px !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+}
+table.MuiTable-root {
+  width: 1200px !important;
+}
+button.MuiButtonBase-root.MuiButton-root.doNotDisplay.MuiButton-text {
+  display: none !important;
+}
